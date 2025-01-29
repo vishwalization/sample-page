@@ -1,0 +1,14 @@
+/* styles/style.css */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    gap: 20px; /* Spacing between images */
+    padding: 20px; /* Optional: Add padding around the grid */
+  }
+  
+  /* Optional: Style images to fit the grid */
+  .gallery img {
+    width: 100%; /* Fill the grid column */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+  }
